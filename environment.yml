@@ -1,0 +1,24 @@
+name: koniq
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26.*
+  - pytorch
+  - torchvision
+  - pip
+  - pandas
+  - pillow
+  - scipy
+  - matplotlib
+  - pyyaml
+  - scikit-learn
+  - tqdm
+  - ipykernel
+  - pytest
+  - black
+  - ruff
+  - pre-commit
+  - pip:
+      - timm
